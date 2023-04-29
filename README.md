@@ -1,1 +1,1 @@
-# funny-potato
+# Funny Potato

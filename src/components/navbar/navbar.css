@@ -1,0 +1,14 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+.nav-items{
+    display:flex;
+}
+a{
+    justify-content: space-between;
+    color: var(--container-color);
+    text-decoration: none;
+    margin-left: 20px;
+}

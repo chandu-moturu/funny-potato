@@ -1,0 +1,7 @@
+.home__container{
+    display: flex;
+}
+h1{
+    font-size: var(--big-font-size);
+    font-weight:var(--font-semi-bold);
+}

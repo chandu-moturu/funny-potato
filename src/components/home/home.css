@@ -1,7 +1,90 @@
 .home__container{
+    margin: 5% 0%;
+    height: 100%;
     display: flex;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
 }
-h1{
+.home__container h1{
+    margin-left: 450px;
+    font-family: cursive;
+    width: fit-content;
     font-size: var(--big-font-size);
-    font-weight:var(--font-semi-bold);
+    font-weight:700;
+    background: linear-gradient(to right,#FF3C6A,#FFAF36 ,#5200FF );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 100%;
+  
 }
+p{
+    line-height: 1.5rem;
+    font-size: medium;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    margin: 3% 0%;
+}
+.button-fill{
+    background-color: #ffffff;
+    border: none;
+    color: #000000;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.button-trans{
+    background-color: transparent;
+    border: solid 2px white;
+    color: #ffffff;
+    padding: 10px;
+    margin-left: 20px;
+    border-radius: 10px;
+
+}
+.elipse{
+    width: 100%;
+    background:  url('../../assets/images/elipse.png');
+    background-repeat: no-repeat;
+    background-size:350px;
+    
+}
+.grad{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    margin-top: 5%;
+    gap: 10px;
+
+}
+.project-img-row{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.cool-grad{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border-radius: 50%;
+    background: linear-gradient(#BA3131,#1F00DE );
+    z-index: -1;
+    height: 500px;
+    opacity: 0.3;
+    
+}
+
+
+  
+  

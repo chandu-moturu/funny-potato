@@ -1,0 +1,35 @@
+.testimonial-container{
+    margin-bottom: 30px;
+    height: fit-content;
+}
+.testimonial-container h1{
+    text-align: center;
+    color: antiquewhite;
+}
+
+.testimonial-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+}
+.testimonial-card{
+    background-color: #1E1F26;
+    padding: 20px;
+    height: 40dvh;
+    width: 30dvh;
+    border-radius: 5px;
+    box-shadow: 5px 20px #888888;
+}
+
+.profile-image{
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.profile-image img{
+    width:80px ;
+    height: 80px;
+    border-radius: 50%;
+}

@@ -1,0 +1,11 @@
+.skills-area{
+    text-align: center;
+    padding: 25px;
+
+}
+.skills-area h2{
+    font-size:var(--h1-font-size);
+}
+.skills-list{
+    margin-top: 5%;
+}

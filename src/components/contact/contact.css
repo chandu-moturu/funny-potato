@@ -121,6 +121,12 @@
     background-color: #fff;
     border-color: #fff;
   }
+
+  @media screen and (max-width:400px){
+    .contact-info{
+      width: 400px;
+    }
+  }
   
   
   

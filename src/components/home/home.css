@@ -85,6 +85,15 @@ p{
     
 }
 
+@media screen and (max-width:400px){
+    .home-info{
+        width: 400px;
+    }
+    .home-info h1{
+        transform: translateX(-220%);
+    }
+}
+
 
   
   

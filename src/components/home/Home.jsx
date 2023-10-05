@@ -6,7 +6,7 @@ import "./home.css";
 const Home = () => {
   return (
     <div className="home__container">
-      <div>
+      <div className="home-info">
         <h1>Cluster</h1>
         <p>
           Unleash your creativity, code your dreams, and forge connections in

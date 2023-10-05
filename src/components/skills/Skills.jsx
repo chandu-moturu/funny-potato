@@ -8,7 +8,7 @@ const Skills = () => {
       <h1>Skills</h1>
       <p>Those who know what they are looking for</p>
       <div className="skills-list">
-        <img src={skills} alt="" style={{width:'600px'}}/>
+        <img src={skills} alt="" className="skills-img" />
       </div>
     </div>
   );

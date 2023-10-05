@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import React, { useEffect, useState } from "react";
 import Navbar from "./components/navbar/navbar";
 import "./App.css";
@@ -11,7 +12,7 @@ import Projects from './components/projects/Projects';
 import Contact from "./components/contact/Contact";
 
 function App() {
-  const [loader, setLoader] = useState(true);
+  const [loader, setLoader] = useState(false);
 
   useEffect(() => {
     setTimeout(() => {

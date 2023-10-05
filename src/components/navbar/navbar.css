@@ -31,3 +31,9 @@ a{
     text-decoration: none;
     margin-left: 20px;
 }
+
+@media screen and (max-width:400px){
+    .nav-items{
+        display: none;
+    }
+}

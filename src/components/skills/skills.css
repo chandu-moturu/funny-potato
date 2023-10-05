@@ -9,3 +9,12 @@
 .skills-list{
     margin-top: 5%;
 }
+.skills-img{
+    width: 600px;
+}
+
+@media screen and (max-width:400px){
+    .skills-img{
+        width: 300px;
+    }
+}

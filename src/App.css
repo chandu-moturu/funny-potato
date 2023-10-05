@@ -35,6 +35,9 @@
   --font-medium: 500;
   --font-semi-bold: 600;
 
+  --offset: 50px;
+  --abs-offset:100px;
+
   /* margenes Bottom  */
   --mb-0-25: 0.25rem;
   --mb-0-5: 0.5rem;
@@ -67,6 +70,9 @@
 
 .loader {
   position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 16px;
   width: 5.5em;
   height: 5.5em;
@@ -141,3 +147,10 @@
   }
 }
       
+@media screen and (max-width:400px){
+  .App{
+    width: 400px;
+  }
+
+
+}
